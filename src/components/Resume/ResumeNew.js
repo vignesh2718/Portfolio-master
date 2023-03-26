@@ -9,7 +9,8 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://drive.google.com/file/d/1BG9ng_fsppGglpil0rrwMjosbPEqasg6/view?usp=sharing";
+  "https://drive.google.com/file/d/1BG9ng_fsppGglpil0rrwMjosbPEqasg6/view?usp=sharing"
+  ;
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -36,7 +37,7 @@ function ResumeNew() {
 
         <Row className="resume">
           <Document file={resumeLink} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 900 ? 1.7 : 0.6} />
+            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>
 
@@ -48,7 +49,7 @@ function ResumeNew() {
             style={{ maxWidth: "300px" }}
           >
             <AiOutlineDownload />
-            &nbsp;You Can click Download CV
+            &nbsp;Click this to Download CV
           </Button>
         </Row>
       </Container>
