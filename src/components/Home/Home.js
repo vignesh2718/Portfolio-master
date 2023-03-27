@@ -27,8 +27,8 @@ function Home() {
                 <p className="intro">
                 I'm 4th year B.Tech student, Front-End / Full-Stack Developer. <br/>
                <b className="purple"> Currently working at Cartel Infosystems as a Web Developer
-                intern.</b><br/> 
-              
+                intern.</b><br/>
+                 
               </p>
               </h1>
               <div style={{  textAlign: "start" , padding:50 }}>
