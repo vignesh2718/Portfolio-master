@@ -27,7 +27,7 @@ function Home() {
                 <p className="intro">
                 I'm 4th year B.Tech student, Front-End / Full-Stack Developer. <br/>
                <b className="purple"> Currently working at Cartel Infosystems as a Web Developer
-                intern.</b><br/> Looking for opportunities to grow and learn.
+                intern.</b><br/> 
               
               </p>
               </h1>
