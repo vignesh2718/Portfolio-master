@@ -611,9 +611,11 @@ button:focus {
 }
 
 .resume {
+  
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
+ display: none;
 }
 
 .resume-left {
@@ -625,6 +627,7 @@ button:focus {
 }
 
 @media (max-width: 767px) {
+  
   .resume-left {
     padding-right: 15px !important;
     padding-left: 15px !important;
@@ -744,8 +747,22 @@ button:focus {
 
 
 .intro{
-width: 700px;
-height: auto;
-padding: 10px;
-font-size: 19px;
+width: 700px ;
+height: auto  !important;
+padding: 10px  !important;
+font-size: 19px  !important;
+}
+
+@media (max-width: 550px) {
+
+.intro{
+width: 300px ;
+
+}
+.resume{
+display: none;
+content: hide;
+}
+
+  
 }

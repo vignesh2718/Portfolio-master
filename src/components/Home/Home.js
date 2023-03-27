@@ -20,6 +20,7 @@ function Home() {
                 </span>
               </h1>
 
+              
               <h1 className="heading-name">
                 I'M
                 <strong className="main-name"> VIGNESH N </strong>
@@ -30,13 +31,13 @@ function Home() {
               
               </p>
               </h1>
+              <div style={{  textAlign: "start" , padding:50 }}>
+                <Type />
+              </div>
            
               
              
 
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
-              </div>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
