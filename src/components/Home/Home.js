@@ -25,10 +25,10 @@ function Home() {
                 I'M
                 <strong className="main-name"> VIGNESH N </strong>
                 <p className="intro">
-                I'm 4th year B.Tech student, Front-End / Full-Stack Developer. <br/>
+                I'm 4th year B.Tech student, <br/>
                <b className="purple"> Currently working at Cartel Infosystems as a Web Developer
                 intern.</b><br/>
-                 
+                   I'm a passionate learner who's always willing to learn and work across technologies and domains.
               </p>
               </h1>
               <div style={{  textAlign: "start" , padding:50 }}>
