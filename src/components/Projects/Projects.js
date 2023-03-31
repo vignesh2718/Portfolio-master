@@ -24,26 +24,7 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={moviecard}
-              isBlog={false}
-              title="Movie Card"
-              description="Using React JS , create a simple website that lists movies in a card format."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://moviecard.vercel.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={food}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using React JS & Bootstrap Css, create a simple website that lists foods in a card format."
-              
-              demoLink="https://foodapp-theta.vercel.app/" 
-            />
-          </Col>
+         
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={memory}
@@ -75,6 +56,7 @@ function Projects() {
               demoLink="https://mindloads.vercel.app/"              
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={diary}
@@ -83,6 +65,26 @@ function Projects() {
               description="This is a full stack website created by my Me & My friend a note taking website, where you can add, edit, delete and search notes."
            
               demoLink="https://mydiary-zpac.onrender.com/"              
+            />
+          </Col>
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={moviecard}
+              isBlog={false}
+              title="Movie Card"
+              description="Using React JS , create a simple website that lists movies in a card format."
+              ghLink="https://github.com/soumyajit4419/Chatify"
+              demoLink="https://moviecard.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={food}
+              isBlog={false}
+              title="Ai For Social Good"
+              description="Using React JS & Bootstrap Css, create a simple website that lists foods in a card format."
+              
+              demoLink="https://foodapp-theta.vercel.app/" 
             />
           </Col>
 
