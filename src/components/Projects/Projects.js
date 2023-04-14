@@ -81,7 +81,7 @@ function Projects() {
             <ProjectCard
               imgPath={food}
               isBlog={false}
-              title="Ai For Social Good"
+              title="Food Ordering Website"
               description="Using React JS & Bootstrap Css, create a simple website that lists foods in a card format."
               
               demoLink="https://foodapp-theta.vercel.app/" 
