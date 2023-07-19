@@ -23,16 +23,13 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-
-         
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={memory}
               isBlog={false}
               title="Memory Game"
               description="This is a JavaScript-based memory game. This project was created during my internship as a Web Developer Intern at Workplay."
-           
-              demoLink="https://memory-game.internalworkpla.repl.co/" 
+              demoLink="https://memory-game.internalworkpla.repl.co/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -41,7 +38,6 @@ function Projects() {
               isBlog={false}
               title="Business Profile"
               description="My freelancing project, in which I designed a business profile website for a financial advisor."
-             
               demoLink="https://ishwarpatil.com/"
             />
           </Col>
@@ -52,8 +48,7 @@ function Projects() {
               isblog={false}
               title="Hiring & Consultancy Corporate Website"
               description="My second project as a freelancer. This website was created to help in hiring, train users, and get them ready for interviews."
-           
-              demoLink="https://mindloads.vercel.app/"              
+              demoLink="https://mindloads.vercel.app/"
             />
           </Col>
 
@@ -63,11 +58,10 @@ function Projects() {
               isblog={false}
               title="Note-MyDiary"
               description="This is a full stack website created by my Me & My friend a note taking website, where you can add, edit, delete and search notes."
-           
-              demoLink="https://mydiary-zpac.onrender.com/"              
+              demoLink="https://mydiary-zpac.onrender.com/"
             />
           </Col>
-           <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={moviecard}
               isBlog={false}
@@ -83,15 +77,11 @@ function Projects() {
               isBlog={false}
               title="Food Ordering Website"
               description="Using React JS & Bootstrap Css, create a simple website that lists foods in a card format."
-              
-              demoLink="https://foodapp-theta.vercel.app/" 
+              demoLink="https://foodapp-theta.vercel.app/"
             />
           </Col>
 
-
-         
-         
-{/* 
+          {/* 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={cartleInfosystem}
