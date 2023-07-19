@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import mindloads from "../../Assets/Projects/mindloads.png";
-import cartleInfosystem from "../../Assets/Projects/cartleInfosystem.png";
+// import cartleInfosystem from "../../Assets/Projects/cartleInfosystem.png";
 import businessprofile from "../../Assets/Projects/businessprofile.png";
 import moviecard from "../../Assets/Projects/moviecard.png";
 import food from "../../Assets/Projects/FoodApp.png";

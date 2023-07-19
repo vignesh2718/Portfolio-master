@@ -4,7 +4,12 @@
         "Infosystems",
         "isblog",
         "mindloads",
+        "moviecard",
         "mydairy",
         "Workplay"
-    ]
+    ],
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "Cartograph CF",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
 }
