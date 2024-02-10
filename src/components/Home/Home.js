@@ -20,24 +20,23 @@ function Home() {
                 </span>
               </h1>
 
-              
               <h1 className="heading-name">
                 I'M
                 <strong className="main-name"> VIGNESH N </strong>
                 <p className="intro">
-                I'm 4th year B.Tech student, <br/>
-               <b className="purple"> Currently working at Cartel Infosystems as a Web Developer
-                intern.</b><br/>
-                   I'm a passionate learner who's always willing to learn and work across technologies and domains.
-              </p>
+                  I'm a Software Engineer, <br />
+                  <b className="purple">
+                    {" "}
+                    Currently working at GEP Worldwide as a Software Engineer.
+                  </b>
+                  <br />
+                  I'm a passionate learner who's always keen to learn new
+                  technology and work across technologies and domains.
+                </p>
               </h1>
-              <div style={{  textAlign: "start" , padding:50 }}>
+              <div style={{ textAlign: "start", padding: 50 }}>
                 <Type />
               </div>
-           
-              
-             
-
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
