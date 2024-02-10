@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/VIGNESH_N.pdf";
+import pdf from "../../Assets/../Assets/Vignesh N Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -12,7 +12,6 @@ const resumeLink =
   // "https://raw.githubusercontent.com/vignesh2718/Portfolio-master/master/src/Assets/resume.pdf";
   //"https://raw.githubusercontent.com/vignesh2718/Portfolio-master/master/src/Assets/VIGNESH_N.pdf";
   "https://raw.githubusercontent.com/vignesh2718/Portfolio-master/master/src/Assets/Vignesh N Resume.pdf";
-  
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
