@@ -10,7 +10,9 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 const resumeLink =
   // "https://raw.githubusercontent.com/vignesh2718/Portfolio-master/master/src/Assets/resume.pdf";
-  "https://raw.githubusercontent.com/vignesh2718/Portfolio-master/master/src/Assets/VIGNESH_N.pdf";
+  //"https://raw.githubusercontent.com/vignesh2718/Portfolio-master/master/src/Assets/VIGNESH_N.pdf";
+  "https://raw.githubusercontent.com/vignesh2718/Portfolio-master/master/src/Assets/Vignesh N Resume.pdf";
+  
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);

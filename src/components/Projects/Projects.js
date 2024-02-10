@@ -51,7 +51,6 @@ function Projects() {
               demoLink="https://mindloads.vercel.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={diary}
